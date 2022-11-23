@@ -1,0 +1,93 @@
+body {
+    background-image: url("./portfolio.jpg");
+    background-size:cover;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: fontawesome;
+    src: url('./portfolio.jpg');
+}
+
+#container {
+    width: 600px;
+    margin-top: 150px;
+    margin-right: 550px;
+    margin-left: 550px;
+    
+}
+
+#top-tabs {
+    display: flex;
+    justify-content: center;
+
+}
+
+#top-tabs > div {
+    margin-left: 30px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    text-shadow: 0 0 5px rgb(167, 167, 167);
+    
+}
+
+#content-area {
+background-color: white;
+width: 120%;
+min-height: 150px;
+margin-top: 10px;
+padding: 0;
+margin-left: 5%;
+margin-right: 5%;
+background-color: #424242;
+color: white;
+text-align: center;
+border-radius: 3%;
+}
+
+#content-area > div {
+    display:none
+}
+
+#content-area > div:first-child {
+    display:block;
+}
+
+#home > div {
+    display:flex;
+    height: 100%;
+    
+
+}
+
+#home {
+    height: 300px;
+}
+
+#intro {
+    flex: 2;
+    flex-shrink: 0;
+    margin-top: 90px;
+    
+}
+
+#intro h2 {
+    font-size: 32px;
+}
+
+#my-bg {
+    flex-shrink: 0;
+    background-size: cover;
+    
+}
+
+p {
+    color:darkgray;
+}
